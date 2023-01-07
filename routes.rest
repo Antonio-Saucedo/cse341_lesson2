@@ -2,8 +2,18 @@
 ###
 GET http://localhost:8080/contacts
 ###
-http://localhost:8080/contacts/63b892a42637ee2845159ee7
+GET http://localhost:8080/contacts/63b892a42637ee2845159ee7
 ###
-http://localhost:8080/contacts/63b892e42637ee2845159ee8
+GET http://localhost:8080/contacts/63b892e42637ee2845159ee8
 ###
-http://localhost:8080/contacts/63b893002637ee2845159ee9
+GET http://localhost:8080/contacts/63b893002637ee2845159ee9
+
+PRODUCTION
+###
+GET http://cse341-lesson2.onrender.com/contacts
+###
+GET http://cse341-lesson2.onrender.com/contacts/63b892a42637ee2845159ee7
+###
+GET http://cse341-lesson2.onrender.com/contacts/63b892e42637ee2845159ee8
+###
+GET http://cse341-lesson2.onrender.com/contacts/63b893002637ee2845159ee9
